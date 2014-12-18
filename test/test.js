@@ -51,7 +51,7 @@ function runTest(file, done) {
         //logOutputs(specOutput, customOutput);
         assert.equal(specOutput, customOutput);
         done();
-    }).fail(function(err, err2) {
+    }).fail(function(err) {
         done(err);
     });
 };
