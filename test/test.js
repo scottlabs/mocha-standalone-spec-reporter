@@ -52,7 +52,6 @@ function runTest(file, done) {
         assert.equal(specOutput, customOutput);
         done();
     }).fail(function(err, err2) {
-        console.log('here we are!');
         done(err);
     });
 };
