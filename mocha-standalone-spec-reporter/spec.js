@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 
-var Base = require('./base')
+var Base = require('../node_modules/mocha/lib/reporters/base')
   , cursor = Base.cursor
   , color = Base.color;
 
